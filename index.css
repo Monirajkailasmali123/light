@@ -1,0 +1,256 @@
+@media only screen and (min-width: 600px) {
+  .plr80px {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/* Rotating-circle */
+.heading-txt,
+.samvedna-content {
+  text-align: justify;
+}
+.circle {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border: 3px dotted black;
+}
+.what_is_samvedna {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+.rotating_circle_animation {
+  height: auto;
+  width: auto;
+  position: relative;
+}
+.circle {
+  -webkit-animation: rotation 3.5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+.center-img {
+  position: absolute;
+  top: 22%;
+  left: 22%;
+  height: 200px;
+  width: 200px;
+}
+
+/* What_is_samvedna */
+#what_is_samvedna {
+  background-color: #f8f8f8;
+}
+.heading-txt {
+  font-size: xx-large;
+}
+.heading-txt .yellow-heading {
+  color: #fdd831;
+}
+
+.line {
+  height: 10px;
+  color: #fdd831;
+}
+.what_is_samvedna {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* What we do */
+/* section1 */
+
+.what_we_do {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  background-color: #fff;
+}
+.whatintro {
+  color: rgb(39, 150, 39);
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 14px;
+}
+.whatline {
+  font-size: x-large;
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.what_hr_line {
+  width: 61%;
+  margin: auto;
+  background-color: rgb(39, 150, 39);
+  height: 5px;
+  margin-top: 13px;
+}
+.container1 {
+  margin: 30px auto;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+/* section1 */
+.row1 .container1 .card {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  float: left;
+  background: rgba(15, 15, 15, 0.3);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section1 */
+.row1 .container1 .card:hover {
+  transform: scale(1.15);
+  box-shadow: 0px 3px 3px 0#929956;
+  transition-duration: 500ms;
+}
+
+/* section1 */
+.content1 {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background: rgba(3, 3, 3, 0.4);
+}
+
+.ContentBx1 h3 {
+  padding-top: 20px;
+}
+
+/* Counter */
+
+/* .section{
+  background: url("images/bg-1.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.wrapper{
+  padding: 20px 50px;
+}
+.wrapper .title{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.wrapper p{
+  text-align: justify;
+  padding-bottom: 20px;
+} */
+*/ .counter-up {
+  /* background: url("images/bg-2.jpeg") no-repeat; */
+  min-height: 80vh;
+
+  /* padding: 0 50px; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+/* .counter-up::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #F8F8F8;
+} */
+.counter-up .content {
+  z-index: 1;
+  padding: 100px 50px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.counter-up .content .box {
+  border: 1px dashed rgba(255, 255, 255, 0.6);
+  width: calc(25% - 30px);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+  transition: all 0.5s;
+
+  box-shadow: 5px 5px 5px black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.counter-up .content .box:hover {
+  transform: translateY(-10px);
+}
+
+.content .box .icon {
+  font-size: 48px;
+  color: #fdd831;
+}
+.content .box .counter {
+  font-size: 50px;
+  font-weight: 500;
+  color: #000000;
+  font-family: sans-serif;
+}
+.content .box .text {
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 1036px) {
+  .counter-up {
+    padding: 50px 50px 0 50px;
+  }
+  .counter-up .content .box {
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .counter-up .content .box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapper {
+    padding: 20px;
+  }
+  .counter-up {
+    padding: 30px 20px 0 20px;
+  }
+}
+
+.last_problem {
+  margin-bottom: 20px;
+}

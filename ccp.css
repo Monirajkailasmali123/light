@@ -1,0 +1,34 @@
+.main-heading,.aim-heading,.description{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+    padding: 30px;
+}
+p.text.container,.aim-text ul {
+    text-align: center;
+}
+#aim ul li{
+    list-style-type: disc;
+}
+.overview,#aim{
+    padding: 60px;
+}
+.row div img{
+    width: 100%;
+    height: 100%;
+}
+.row {
+    width: 80%;
+    
+    
+}
+#description,.description{
+    padding: 5%;
+}
+.row img{
+border: 3px solid black;
+}
+#aim,#description{
+    background-color: #f8f8f8;
+}

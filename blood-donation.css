@@ -1,0 +1,17 @@
+.blood-donation{
+    width: 80%;
+    padding: 90px;
+}
+.blood-donation .row div h1{
+    font-size: 29px;
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+}
+.blood-donation .row div p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.blood-donation .row div img{
+    border: 3px solid black;
+}
