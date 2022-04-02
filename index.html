@@ -42,6 +42,9 @@
         <!-- favicon  -->
         <link rel="icon" type="image/x-icon" href="image/light_logo (1).png">
 
+    <!--Aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -130,8 +133,8 @@
 
 <!--What is Samvedna-->
 
-<section id="what_is_samvedna">
-    <div class="what_is_samvedna row plr80px">
+<section id="what_is_samvedna" >
+    <div class="what_is_samvedna row plr80px" data-aos="slide-up">
         <div class="content_samvedna  col-lg-6 col-md-12 col-sm-12">
             <h1 class="heading-txt">What is <span class="yellow-heading">LiGHT Samvedna?</span></h1>
             <hr class="line">
@@ -161,7 +164,7 @@
 <!--What we do-->
 
 
-<section class="what_we_do">
+<section class="what_we_do" data-aos="slide-up" >
 <h2 class="whatintro">What we do?</h2>
 <p  class="whatline">Perform a variety of services
     and humanitarian activities</p>
@@ -210,8 +213,8 @@
 <!--Counter-->
 
 <div class="counter-up" style="background-color: #F8F8F8;">
-    <p style="text-align: center; font-size: xx-large;">THE IMPACT</p>
-    <div class="content row container">
+    <p style="text-align: center; font-size: xx-large; " data-aos="slide-up">THE IMPACT</p>
+    <div class="content row container" data-aos="slide-up">
 
         <div class="box col-lg-3 col-md-6 col-sm-12">
             <div class="icon"><i class="fas fa-history"></i></div>
@@ -248,8 +251,8 @@
 <!--Conter Ended-->
 
 <!--Footer-->
-<footer>
-    <div class="top_header container">
+<footer data-aos="slide-up">
+    <div class="top_header container" >
         <section>
             <span><i class="fa fa-map-marker"></i></span>
             <span style="color: #fff;">Government College of Engineering, Aurangabad</span>
@@ -349,6 +352,15 @@
         
         
 
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+       AOS.init({
+            offset: 120,
+            duration: 1000,
+             easing: 'ease -in -out',
+            // delay: 120,
+        });
     </script>
 </body>
 

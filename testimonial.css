@@ -200,4 +200,7 @@ border-color: #FDDB27FF;
     .testim .cont div p{
         line-height: 25px;
     }
+    .testimonial-text{
+        width: 100vh !important;
+    }
 }

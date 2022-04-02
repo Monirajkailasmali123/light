@@ -127,3 +127,20 @@ footer .bottom_content section {
     margin-top: -80px;
   }
 }
+@media (max-width :920px){
+  .navbar-collapse .nav-item a{
+    text-align: center;
+  }
+}
+
+@media (max-width :780px){
+ .carousel-item img {
+height: 60vh !important;
+ }
+}
+
+@media (max-width :992px){
+ .rotating_circle_animation {
+  margin-top: 40px;
+ }
+}
